@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f8f8f8;
+    color: #333;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #D2691E;
+    margin-bottom: 20px;
+}
+
+img {
+    display: block;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto 20px;
+    border-radius: 8px;
+}
+
+.receita {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    color: #D2691E;
+}
+
+.ingredientes {
+    list-style-type: none;
+    margin-left: 20px;
+}
+
+.ingredientes li {
+    font-size: 1.2rem;
+    margin-bottom: 8px;
+}
+
+.modo-de-preparo {
+    list-style-type: decimal;
+    margin-left: 20px;
+}
+
+.modo-de-preparo li {
+    font-size: 1.2rem;
+    margin-bottom: 12px;
+}
+
+p {
+    text-align: center;
+    font-size: 1.5rem;
+    color: #666;
+    margin-top: 20px;
+}
