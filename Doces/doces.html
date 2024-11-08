@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
     <title>Página de Doces</title>
     <link rel="apple-touch-icon" href="images/pwa-icon-256.png" />
-    <link rel="stylesheet" href="css/doces.css" />
+    <link rel="stylesheet" href="/css/doces.css" />
     <link rel="manifest" href="/manifest.json" />
     <link rel="icon" href="favicon.jpg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -18,23 +18,43 @@
         <p>Os melhores doces para tornar seu dia ainda mais doce!</p>
     </header>
 
+    <nav>
+        <ul class="navbar">
+            <li><a href="/">Home</a></li>
+            <li><a href="/Doces/brownie.html">Brownie</a></li>
+            <li><a href="/Doces/tortaDeLimao.html">Torta de Limão</a></li>
+            <li><a href="/Doces/brigadeiro.html">Brigadeiro</a></li>
+            <li><a href="/sobre.html">Sobre</a></li>
+        </ul>
+    </nav>
+
     <div class="card-container">
         <div class="card">
-            <img src="/images/brownie.jpg" alt="Brownie">
-            <h3>Brownie</h3>
-            <p>Delicioso e irresistível!</p>
+            <a href="/Doces/brownie.html">
+                <img src="/images/brownie.jpg" alt="Brownie">
+                <h3>Brownie</h3>
+                <p>Delicioso e irresistível!</p>
+            </a>
         </div>
         <div class="card">
-            <img src="/images/torta-de-limão.jpg" alt="Torta de Limão">
-            <h3>Torta de Limão</h3>
-            <p>Refrescante e saborosa.</p>
+            <a href="/Doces/tortaDeLimao.html">
+                <img src="/images/torta-de-limão.jpg" alt="Torta de Limão">
+                <h3>Torta de Limão</h3>
+                <p>Refrescante e saborosa.</p>
+            </a>
         </div>
         <div class="card">
-            <img src="/images/brigadeiro.jpg" alt="Brigadeiro">
-            <h3>Brigadeiro</h3>
-            <p>Um clássico brasileiro!</p>
+            <a href="/Doces/brigadeiro.html">
+                <img src="/images/brigadeiro.jpg" alt="Brigadeiro">
+                <h3>Brigadeiro</h3>
+                <p>Um clássico brasileiro!</p>
+            </a>
         </div>
     </div>
+
+    <footer>
+        <p>&copy; 2024 Doces Deliciosos. Todos os direitos reservados.</p>
+    </footer>
 </body>
 
 </html>
