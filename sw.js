@@ -1,22 +1,25 @@
-let cacheName = "my-first-pwa";
+let cacheName = "pwa-receitas";
+
 let filesToCache = ["/", "/index.html", 
                 "/css/style.css", "/js/main.js"];
 
-/* inicializando a service worker e fazendo o 
-download do conteúdo da aplicação */
+/*inicializando a service worker e fazendo o download do conteúdo da aplicação */
+
 self.addEventListener("install", (e) => {
-  e.waitUntil(
-    caches.open(cacheName).then(function (cache) {
-      return cache.addAll(filesToCache);
-    })
-  );
+
+    e.waitUntil(caches.open(cacheName).then(function (cache) { return cache.addAll(filesToCache); }));
 });
 
-/* disponibilizando o conteudo quando estiver offline */
+/*disponibilizando o conteudo quando estiver offline */
+
 self.addEventListener("fetch", (e) => {
-  e.respondWith(
-    caches.match(e.request).then((response) => {
-      return response || fetch(e.request);
-    })
-  );
+
+    e.respondWith(
+
+        caches.match(e.request).then((response) => {
+
+            return response || fetch(e.request);
+
+        })
+    );
 });

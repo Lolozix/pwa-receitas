@@ -1,6 +1,6 @@
 {
-    "name": "pwa-receitas",
-    "short_name": "receitas",
+    "name": "Lolob's Receitas",
+    "short_name": "Receitas",
     "icons": [
         {
             "src": "images/pwa-icon-256.png",
@@ -11,12 +11,6 @@
             "src": "images/pwa-icon-512.png",
             "sizes": "512x512",
             "type": "image/png"
-        },
-        {
-            "src": "images/pwa-icon-256.png",
-            "sizes": "256x256",
-            "type": "image/png",
-            "purpose": "maskable"
         }
     ],
     "lang": "pt-BR",
@@ -25,5 +19,3 @@
     "background_color": "white",
     "theme_color": "white"
 }
-
-

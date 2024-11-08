@@ -1,49 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    background-color: #f8f8f8;
+    font-family: 'Roboto', sans-serif;
+    background-color: #fafafa;
     color: #333;
-    padding: 20px;
+    line-height: 1.8;
+    padding: 0 20px;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #8B4513;
+    color: white;
+    padding: 30px;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 3rem;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+
+header p {
+    font-size: 1.25rem;
+    opacity: 0.8;
+}
+
+nav {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.navbar {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 0;
+}
+
+.navbar li {
+    display: inline;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #8B4513;
+    font-size: 1.2rem;
+    font-weight: 500;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.navbar a:hover {
+    color: #D2691E;
+    transform: translateY(-2px);
 }
 
 h1 {
     text-align: center;
     font-size: 2.5rem;
-    color: #D2691E;
-    margin-bottom: 20px;
+    color: #8e8d8b;
+    margin-bottom: 30px;
+    font-weight: 700;
 }
 
 img {
     display: block;
     width: 100%;
-    max-width: 600px;
-    margin: 0 auto 20px;
-    border-radius: 8px;
+    max-width: 700px;
+    margin: 0 auto 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
 .receita {
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    max-width: 800px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    max-width: 900px;
     margin: 0 auto;
 }
 
 h2 {
-    font-size: 1.8rem;
-    margin-bottom: 10px;
-    color: #D2691E;
+    font-size: 2rem;
+    margin-bottom: 15px;
+    color: #8B4513;
+    font-weight: 600;
+    border-bottom: 2px solid #8B4513;
+    padding-bottom: 10px;
 }
 
-.ingredientes {
+.ingredientes, .modo-de-preparo {
     list-style-type: none;
     margin-left: 20px;
+    padding-left: 0;
 }
 
-.ingredientes li {
+.ingredientes li, .modo-de-preparo li {
     font-size: 1.2rem;
-    margin-bottom: 8px;
+    margin-bottom: 15px;
+    color: #555;
+    transition: color 0.3s ease;
+}
+
+.ingredientes li:hover, .modo-de-preparo li:hover {
+    color: #8B4513; 
 }
 
 .modo-de-preparo {
@@ -51,14 +122,53 @@ h2 {
     margin-left: 20px;
 }
 
-.modo-de-preparo li {
-    font-size: 1.2rem;
-    margin-bottom: 12px;
-}
-
 p {
     text-align: center;
-    font-size: 1.5rem;
-    color: #666;
-    margin-top: 20px;
+    font-size: 1.2rem;
+    color: #777;
+    margin-top: 40px;
+}
+
+footer {
+    color: white;
+    background-color: #8B4513;
+    text-align: center;
+    padding: 20px;
+    margin-top: 60px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+footer p {
+    font-size: 1rem;
+    opacity: 0.7;
+}
+
+@media (max-width: 768px) {
+    img {
+        max-width: 100%;
+        border-radius: 8px;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    .ingredientes li, .modo-de-preparo li {
+        font-size: 1rem;
+    }
+
+    .receita {
+        padding: 20px;
+        margin: 0 15px;
+    }
+
+    .navbar {
+        flex-direction: column;
+        gap: 15px;
+    }
 }

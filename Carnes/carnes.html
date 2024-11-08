@@ -3,8 +3,9 @@
 
 <head>
     <meta charset="utf-8" />
-    <title>Brownie</title>
-    <link rel="stylesheet" href="css/carnes.css" />
+    <title>Carnes Deliciosas</title>
+    <link rel="apple-touch-icon" href="images/pwa-icon-256.png" />
+    <link rel="stylesheet" href="/css/doces.css" />
     <link rel="manifest" href="/manifest.json" />
     <link rel="icon" href="favicon.jpg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -13,27 +14,45 @@
 
 <body class="fullscreen">
     <header>
-        <h1>Carnes Saborosas</h1>
-        <p>Os cortes mais suculentos e saborosos para o seu prato!</p>
+        <h1>Carnes deliciosas</h1>
+        <p>Os melhores pratos de carne para tornar seu dia ainda mais saboroso!</p>
     </header>
+
+    <nav>
+        <ul class="navbar">
+            <li><a href="/Carnes/BifeParmegiana.html">Bife à parmegiana</a></li>
+            <li><a href="/Carnes/fileMignon.html">Filé Mignon</a></li>
+            <li><a href="/Carnes/lombo.html">Lombo com molho agridoce</a></li>
+        </ul>
+    </nav>
 
     <div class="card-container">
         <div class="card">
-            <img src="/images/bife-a-parmegiana.jpg" alt="Steak">
-            <h3>Bife à parmegiana</h3>
-            <p>Suculento e macio!</p>
+            <a href="/Carnes/BifeParmegiana.html">
+                <img src="/images/bife-a-parmegiana.jpg" alt="Bife à parmegiana">
+                <h3>Bife à parmegiana</h3>
+                <p>Suculento e macio!</p>
+            </a>
         </div>
         <div class="card">
-            <img src="/images/file-mignon.jpg" alt="Filé Mignon">
-            <h3>Filé Mignon</h3>
-            <p>Maciez e sabor incomparáveis!</p>
+            <a href="/Carnes/fileMignon.html">
+                <img src="/images/file-mignon.jpg" alt="Filé Mignon">
+                <h3>Filé Mignon</h3>
+                <p>Maciez e sabor incomparáveis!</p>
+            </a>
         </div>
         <div class="card">
-            <img src="/images//lombo-com-molho-agridoce.jpg" alt="Churrasco">
-            <h3>Lombro com molho agridoce</h3>
-            <p>O verdadeiro sabor do Brasil.</p>
+            <a href="/Carnes/lombo.html">
+                <img src="/images/lombo-com-molho-agridoce.jpg" alt="Lombo com molho agridoce">
+                <h3>Lombo com molho agridoce</h3>
+                <p>O verdadeiro sabor do Brasil.</p>
+            </a>
         </div>
     </div>
+
+    <footer>
+        <p>&copy; 2024 Carnes Deliciosas. Todos os direitos reservados.</p>
+    </footer>
 </body>
 
 </html>
