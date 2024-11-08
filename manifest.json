@@ -1,6 +1,6 @@
 {
-    "name": "Minha primeira Progressive Web App",
-    "short_name": "Primeira PWA",
+    "name": "pwa-receitas",
+    "short_name": "receitas",
     "icons": [
         {
             "src": "images/pwa-icon-256.png",

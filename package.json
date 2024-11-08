@@ -1,14 +1,14 @@
 {
-  "name": "primeira-pwa-app",
+  "name": "pwa-receitas",
   "version": "1.0.0",
-  "description": "Esta é a primeira pwa, usando vanilla JS",
+  "description": "receitas",
   "main": "index.html",
   "scripts": {
     "dev": "vite",
     "test": "echo \"Error: no test specified\" && exit 1",
     "serve": "serve ."
   },
-  "author": "Renato de Souza Garcia",
+  "author": "Lorrana e Kayke",
   "license": "ISC",
   "dependencies": {
     "serve": "^14.2.4",
