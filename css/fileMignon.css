@@ -62,3 +62,41 @@ p {
     color: #666;
     margin-top: 20px;
 }
+
+.navbar {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    background-color: #D2691E;
+    padding: 10px 0;
+    margin: 0 0 20px;
+}
+
+.navbar li {
+    margin: 0 15px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    transition: color 0.3s;
+}
+
+.navbar a:hover {
+    color: #ffd700;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+}
