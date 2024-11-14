@@ -1,13 +1,14 @@
 let cacheName = "pwa-receitas";
-
-let filesToCache = ["/", "/index.html", "/Carnes/BifeParmegiana", "/Carnes/carnes", "/Cares/fileMignon", "/Carnes/lombo", 
-    "/Doces/brigadeiro", "/Doces/brownie","/Doces/doces", "/Doces/tortaDeLimao", 
-    "/Massas/fettuccine", "/Massas/lasanha", "/Massas/massas", "/Massas/spaghetti", 
-    "/css/bifePamergiana.css", "/css/brigadeiro.css", "/css/brownie.css", "/css/carnes.css", "/css/doces", "/css/fettuccine.css", "/css/fineMignon.css", "/css/index.css", 
-    "/css/lasanha.css", "/css/lombo.css", "/css/massas.css", "/css/spaghetti.css", "/css/tortaLimao.css",
-    "/imagens/bife-a-parmegiana.jpg", "/imagens/brigadeiro.jpg", "/imagens/brownie.jpg", "/imagens/carnes.jpg", "/imagens/doces.jpg", "/imagens/fettuccine.jpg", "/imagens/file-mignon",
-    "/imagens/lasanha.css", "/imagens/lombo-com-molho-agridoce.jpg", "/imagens/massas.jpg", "/imagens/spaghetti.jpg", "/imagens/torta-de-limão.jpg", 
-    "/js/main.js",
+//let filesToCache = ["/", "/index.html", "/manifest.json", "/Doces/doces", "/Doces/brownie", "/imagens"];
+let filesToCache = ["/", "/index.html", "/manifest.json", "/js/main.js",
+"/Carnes/carnes", "/Carnes/BifeParmegiana", "/Carnes/fileMignon", "/Carnes/lombo", 
+"/Doces/doces", "/Doces/brigadeiro", "/Doces/brownie", "/Doces/tortaDeLimao",
+"/Massas/massas", "/Massas/fettuccine", "/Massas/lasanha", "/Massas/spaghetti", 
+"/css/bifePamergiana.css", "/css/brigadeiro.css", "/css/brownie.css", "/css/carnes.css", "/css/doces.css", "/css/fettuccine.css",
+"/css/fileMignon.css", "/css/index.css", "/css/lasanha.css", "/css/lombo.css", "/css/massas.css", "/css/spaghetti.css", "/css/tortaLimao.css",
+"/imagens/bife-a-parmegiana.jpg", "/imagens/brigadeiro.jpg", "/imagens/brownie.jpg", "/imagens/carnes.jpg", "/imagens/doces.jpg",
+"/imagens/fettuccine.jpg", "/imagens/file-mignon.jpg", "/imagens/lasanha.jpg", "/imagens/lombo-com-molho-agridoce.jpg","/imagens/massas.jpg",
+"/imagens/spaghetti.jpg", "/imagens/torta-de-limão.jpg", "/imagens", "favicon.ico"
 ];
 
 /*inicializando a service worker e fazendo o download do conteúdo da aplicação */

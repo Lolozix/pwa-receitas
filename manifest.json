@@ -3,12 +3,12 @@
     "short_name": "Receitas",
     "icons": [
         {
-            "src": "images/pwa-icon-256.png",
+            "src": "imagens/brownie.jpg",
             "sizes": "256x256",
             "type": "image/png"
         },
         {
-            "src": "images/pwa-icon-512.png",
+            "src": "imagens/carnes.jpg",
             "sizes": "512x512",
             "type": "image/png"
         }
